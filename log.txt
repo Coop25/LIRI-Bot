@@ -27,3 +27,24 @@ COMMAND ISSUED: movie-this
           Actors: Christopher Shyer, Ray Galletti, Eileen Pedde, Rekha Sharma
             Plot: The only way to save Earth from catastrophe is to drill down to the core and set it spinning again.
 -----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: movie-this
+-----------------------------------------------------------------
+           Title: The Core
+            Year: 2003
+            IMDB: 5.5/10
+ Rotten Tomatoes: 40%
+         Country: USA, Germany, Canada, UK
+          Actors: Christopher Shyer, Ray Galletti, Eileen Pedde, Rekha Sharma
+            Plot: The only way to save Earth from catastrophe is to drill down to the core and set it spinning again.
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: concert-this
+-----------------------------------------------------------------
+           Artist: Cher
+            Venue: Mercedes-Benz Arena
+Location of Venue: Berlin, Germany
+             Date: 09/26/2019
+-----------------------------------------------------------------

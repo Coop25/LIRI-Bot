@@ -13,12 +13,16 @@ const spotifyFunc = require("./functions/spotify.js");
 const omdb = require("./functions/omdb.js");
 const logs = require("./functions/logging.js");
 
-let spotify = new Spotify(keys.spotify);
+//initalizing new instance of the spotify package/api
+const spotify = new Spotify(keys.spotify);
 
-let args = process.argv.slice(2);
+//creating an array of all of the useful command line arguments
+const args = process.argv.slice(2);
 
+//line splitter for the log file 
 const starSplitter = "\n******************************************************************************";
 
+//function check 
 function testIt(itemOBJ) {
     switch (itemOBJ.query) {
         case "concert-this":
@@ -35,6 +39,7 @@ function testIt(itemOBJ) {
             break;
         case "do-what-it-says":
             logs.log(fs, `\n${starSplitter}\nCOMMAND ISSUED: ${itemOBJ.query}`);
+            console.log(`COMMAND ISSUED: ${itemOBJ.query}`)
             fs.readFile("./random.txt", "utf8", function (error, data) {
                 if (error) {
                     return console.log(error);
