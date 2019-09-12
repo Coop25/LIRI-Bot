@@ -175,3 +175,12 @@ Song Name: I Want It That Way
     Album: The Hits--Chapter One
   Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=067b3496810e4775a974fd4129b3f5cb
 -----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: spotify-this-song
+-----------------------------------------------------------------
+Artist(s): Harry Styles
+Song Name: Sign of the Times
+    Album: Harry Styles
+  Preview: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=067b3496810e4775a974fd4129b3f5cb
+-----------------------------------------------------------------
