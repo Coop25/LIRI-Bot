@@ -54,7 +54,15 @@ function testIt(itemOBJ) {
             })
             break;
         default:
-            console.log("NO VALID KEYWORD FOUND!")
+            console.log(colors.red("ERROR: NO VALID KEYWORD FOUND!"))
+            console.log(`Oh no, it looks like you entered nothing... please try one of the following
+-----------------------------------------------------
+${colors.red("node liri.js")} ${colors.blue("concert-this")} ${colors.green("cher")}
+${colors.red("node liri.js")} ${colors.blue("spotify-this-song")} ${colors.green("Juke Box Hero")}
+${colors.red("node liri.js")} ${colors.blue("movie-this")} ${colors.green("the core")}
+${colors.red("node liri.js")} ${colors.blue("do-what-it-says")}
+-----------------------------------------------------
+please note anything in green above can be changed`);
     }
 }
 

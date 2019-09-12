@@ -60,3 +60,8 @@ Song Name: Juke Box Hero
 - EXAMPLE console output below
 
 ![Well... there was a gif here -_-](https://i.imgur.com/ETnRzvU.gif)
+
+#### node liri.js
+- if nothing is endered when running liri.js then you will be greeted with the screen in the gif below
+
+![Well... there was a gif here -_-](https://i.imgur.com/t0XAkdo.gif)
