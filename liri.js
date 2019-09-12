@@ -5,39 +5,55 @@ const Spotify = require('node-spotify-api');
 const axios = require("axios");
 const moment = require("moment");
 const fs = require("fs");
+const colors = require("colors");
 
 //importing the functions that are in different files
-const bands = require("./bandsintown.js");
-const spotifyFunc = require("./spotify.js");
-const omdb = require("./omdb.js");
+const bands = require("./functions/bandsintown.js");
+const spotifyFunc = require("./functions/spotify.js");
+const omdb = require("./functions/omdb.js");
+const logs = require("./functions/logging.js");
 
 let spotify = new Spotify(keys.spotify);
 
 let args = process.argv.slice(2);
 
-function testIt(item) {
-    switch (item) {
+const starSplitter = "\n******************************************************************************";
+
+function testIt(itemOBJ) {
+    switch (itemOBJ.query) {
         case "concert-this":
-            args.shift();
-            bands.concert(axios, moment, args.join(" "));
+            logs.log(fs, `\n${starSplitter}\nCOMMAND ISSUED: ${itemOBJ.query}`);
+            bands.concert(axios, moment, itemOBJ.term, fs, logs, colors);
             break;
         case "spotify-this-song":
-            args.shift();
-            spotifyFunc.spotifyAPI(spotify, args.join(" "));
+            logs.log(fs, `\n${starSplitter}\nCOMMAND ISSUED: ${itemOBJ.query}`);
+            spotifyFunc.spotifyAPI(spotify, itemOBJ.term, fs, logs, colors);
             break;
         case "movie-this":
-            args.shift();
-            omdb.ombd(axios, args.join(" "));
+            logs.log(fs, `\n${starSplitter}\nCOMMAND ISSUED: ${itemOBJ.query}`);
+            omdb.ombd(axios, itemOBJ.term, fs, logs, colors);
             break;
         case "do-what-it-says":
+            logs.log(fs, `\n${starSplitter}\nCOMMAND ISSUED: ${itemOBJ.query}`);
             fs.readFile("./random.txt", "utf8", function (error, data) {
                 if (error) {
                     return console.log(error);
                 }
-                let
+                let newData = data.split(",");
+                logs.log(fs, `\nRUNNING NEW COMMAND: ${newData[0]}`);
+                testIt({
+                    query: newData[0],
+                    term: newData[1]
+                });
             })
+            break;
         default:
             console.log("NO VALID KEYWORD FOUND!")
     }
 }
-testIt(args[0]);
+
+
+testIt({
+    query: args[0],
+    term: args.slice(1).join(" ")
+});

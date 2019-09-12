@@ -1,4 +1,5 @@
-module.exports.spotifyAPI = function (spotify, song) {
+module.exports.spotifyAPI = function (spotify, song, fs, logs, colors) {
+    if (song === "") song = "Juke Box Hero"
     spotify
         .search({
             type: 'track',
@@ -14,13 +15,14 @@ module.exports.spotifyAPI = function (spotify, song) {
                     artistStr = `${artistStr}, ${artistOBJ.name}`;
                 }
             });
-            console.log(
-`--------------------------
+            const splitter = "-----------------------------------------------------------------";
+            const dataSTR = `
 Artist(s): ${artistStr}
 Song Name: ${track.name}
     Album: ${track.album.name}
-  Preview: ${track.preview_url}
---------------------------`)
+  Preview: ${track.preview_url}`
+  console.log(`${colors.red(splitter)}${colors.green(dataSTR)}\n${colors.red(splitter)}`);
+            logs.log(fs, `\n${splitter}${dataSTR}\n${splitter}`);
         })
         .catch(function (err) {
             console.log(err);
