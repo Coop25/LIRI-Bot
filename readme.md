@@ -9,6 +9,8 @@ this is a bot is a Node.js command line bot that takes in command line arguments
 - this command gets a set amount of data based on what artist name is given and displays useful info on upcoming concerts from that artist
 - EXAMPLE console output below
 
+![Well... there was a gif here -_-](https://i.imgur.com/uNq1h15.gif)
+
 ```
 -----------------------------------------------------------------
            Artist: Cher
@@ -23,6 +25,8 @@ Location of Venue: Berlin, Germany
 - this command gets data based on what song is given using the Spotify API and displays that data in a meaningful manor in the console
 - EXAMPLE console output below
 
+
+![Well... there was a gif here -_-](https://i.imgur.com/2j7On7e.gif)
 ```
 -----------------------------------------------------------------
 Artist(s): Foreigner
@@ -36,6 +40,7 @@ Song Name: Juke Box Hero
 
 - this command gets various data about a given movie using the OMBD API and displays the data in a meaningful manor in the console
 - EXAMPLE console output below
+![Well... there was a gif here -_-](https://i.imgur.com/dl2w212.gif)
 
 ```
 -----------------------------------------------------------------
@@ -52,3 +57,6 @@ Song Name: Juke Box Hero
 #### node liri.js do-what-it-says
 
 - this command reads the random.txt file and parses the data in said file to a string, it then splits the string on comma and uses the resulting array to run a new command based on index 0 of the newly created array
+- EXAMPLE console output below
+
+![Well... there was a gif here -_-](https://i.imgur.com/ETnRzvU.gif)

@@ -24,6 +24,7 @@ const starSplitter = "\n********************************************************
 
 //function check 
 function testIt(itemOBJ) {
+    console.log(colors.yellow(`COMMAND ISSUED: ${colors.cyan(itemOBJ.query)}`))
     switch (itemOBJ.query) {
         case "concert-this":
             logs.log(fs, `\n${starSplitter}\nCOMMAND ISSUED: ${itemOBJ.query}`);
@@ -39,13 +40,13 @@ function testIt(itemOBJ) {
             break;
         case "do-what-it-says":
             logs.log(fs, `\n${starSplitter}\nCOMMAND ISSUED: ${itemOBJ.query}`);
-            console.log(`COMMAND ISSUED: ${itemOBJ.query}`)
             fs.readFile("./random.txt", "utf8", function (error, data) {
                 if (error) {
                     return console.log(error);
                 }
                 let newData = data.split(",");
                 logs.log(fs, `\nRUNNING NEW COMMAND: ${newData[0]}`);
+                console.log(`${colors.red("------------------")}\n${colors.blue("RUNNING NEW COMMAND: ")}${colors.green(newData[0])}\n${colors.red("------------------")}${starSplitter}`)
                 testIt({
                     query: newData[0],
                     term: newData[1]

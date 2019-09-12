@@ -48,3 +48,130 @@ COMMAND ISSUED: concert-this
 Location of Venue: Berlin, Germany
              Date: 09/26/2019
 -----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: concert-this
+-----------------------------------------------------------------
+           Artist: Zac Brown Band
+            Venue: North Island Credit Union Ampitheatre
+Location of Venue: Chula Vista, United States
+             Date: 09/19/2019
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: concert-this
+-----------------------------------------------------------------
+           Artist: Zac Brown Band
+            Venue: North Island Credit Union Ampitheatre
+Location of Venue: Chula Vista, United States
+             Date: 09/19/2019
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: concert-this
+-----------------------------------------------------------------
+           Artist: Zac Brown Band
+            Venue: North Island Credit Union Ampitheatre
+Location of Venue: Chula Vista, United States
+             Date: 09/19/2019
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: concert-this
+-----------------------------------------------------------------
+           Artist: Zac Brown Band
+            Venue: North Island Credit Union Ampitheatre
+Location of Venue: Chula Vista, United States
+             Date: 09/19/2019
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: concert-this
+-----------------------------------------------------------------
+           Artist: Zac Brown Band
+            Venue: North Island Credit Union Ampitheatre
+Location of Venue: Chula Vista, United States
+             Date: 09/19/2019
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: concert-this
+-----------------------------------------------------------------
+           Artist: Zac Brown Band
+            Venue: North Island Credit Union Ampitheatre
+Location of Venue: Chula Vista, United States
+             Date: 09/19/2019
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: movie-this
+-----------------------------------------------------------------
+           Title: The Core
+            Year: 2003
+            IMDB: 5.5/10
+ Rotten Tomatoes: 40%
+         Country: USA, Germany, Canada, UK
+          Actors: Christopher Shyer, Ray Galletti, Eileen Pedde, Rekha Sharma
+            Plot: The only way to save Earth from catastrophe is to drill down to the core and set it spinning again.
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: spotify-this-song
+-----------------------------------------------------------------
+Artist(s): Foreigner
+Song Name: Juke Box Hero
+    Album: 4 (Expanded)
+  Preview: https://p.scdn.co/mp3-preview/596f26d42b94be4ef06d7b63f4a02cbfd3e40c48?cid=067b3496810e4775a974fd4129b3f5cb
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: do-what-it-says
+RUNNING NEW COMMAND: spotify-this-song
+
+******************************************************************************
+COMMAND ISSUED: spotify-this-song
+-----------------------------------------------------------------
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+    Album: The Hits--Chapter One
+  Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=067b3496810e4775a974fd4129b3f5cb
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: do-what-it-says
+RUNNING NEW COMMAND: spotify-this-song
+
+******************************************************************************
+COMMAND ISSUED: spotify-this-song
+-----------------------------------------------------------------
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+    Album: The Hits--Chapter One
+  Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=067b3496810e4775a974fd4129b3f5cb
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: do-what-it-says
+RUNNING NEW COMMAND: spotify-this-song
+
+******************************************************************************
+COMMAND ISSUED: spotify-this-song
+-----------------------------------------------------------------
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+    Album: The Hits--Chapter One
+  Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=067b3496810e4775a974fd4129b3f5cb
+-----------------------------------------------------------------
+
+******************************************************************************
+COMMAND ISSUED: do-what-it-says
+RUNNING NEW COMMAND: spotify-this-song
+
+******************************************************************************
+COMMAND ISSUED: spotify-this-song
+-----------------------------------------------------------------
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+    Album: The Hits--Chapter One
+  Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=067b3496810e4775a974fd4129b3f5cb
+-----------------------------------------------------------------
